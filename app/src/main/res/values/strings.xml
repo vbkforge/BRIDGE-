@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bridge</string>
+    <string name="log_title">Activity log</string>
+    <string name="a11y_description">Bridge lets Claude (through your Claude app custom connector) see this screen, take screenshots, tap, swipe, type, go back or home and open apps — only while you have pressed Start in Bridge. A red STOP button is shown whenever control is on; one tap stops everything. Bridge pauses itself on password, OTP, payment and banking screens.</string>
+</resources>

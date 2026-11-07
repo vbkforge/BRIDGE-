@@ -1,0 +1,8 @@
+{
+  "name": "bridge-relay",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "wrangler": "4.151.2"
+  }
+}
