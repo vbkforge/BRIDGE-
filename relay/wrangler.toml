@@ -1,0 +1,15 @@
+# Bridge relay: a tiny free Cloudflare Worker that connects Claude (custom connector)
+# to the Bridge app on your tablet. Deployed by .github/workflows/deploy-relay.yml.
+name = "bridge-relay"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[[durable_objects.bindings]]
+name = "DEVICE"
+class_name = "DeviceRelay"
+
+# Free plan requires SQLite-backed Durable Objects.
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["DeviceRelay"]
